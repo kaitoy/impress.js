@@ -710,6 +710,8 @@
                              api.prev();
                              break;
                     case 9:  // tab
+                             // shut tab up.
+                             break;
                     case 32: // space
                     case 34: // pg down
                     case 39: // right
