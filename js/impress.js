@@ -331,6 +331,9 @@
         // `init` API function that initializes (and runs) the presentation.
         var init = function () {
             if (initialized) { return; }
+            if (window.frameElement && window.frameElement.getAttribute('no-init')) {
+              return;
+            }
 
             // First we set up the viewport for mobile devices.
             // For some reason iPad goes nuts when it is not done properly.
