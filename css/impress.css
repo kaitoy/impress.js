@@ -73,7 +73,6 @@
 
 body {
     font-family: pt-sans, sans-serif;
-    min-height: 740px;
 
     background: rgb(215, 215, 215);
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));

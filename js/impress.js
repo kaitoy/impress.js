@@ -331,7 +331,9 @@
         // `init` API function that initializes (and runs) the presentation.
         var init = function () {
             if (initialized) { return; }
-            if (window.frameElement && window.frameElement.getAttribute('no-init')) {
+
+            var frame = window.frameElement
+            if (frame && frame.getAttribute('impress-no-init')) {
               return;
             }
 
