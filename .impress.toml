@@ -9,4 +9,5 @@
 mainHtmlPath = 'index.html'
 
 [stepListView]
+# Height of Step List View.
 # stepListViewHeight = 120
