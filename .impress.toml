@@ -5,5 +5,8 @@
 ## This file is read only when the project is added to Atom.
 ##
 
+# Path to the main HTML file. (Relative path from the project root.)
+mainHtmlPath = 'index.html'
+
 [stepListView]
 # stepListViewHeight = 120
