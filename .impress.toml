@@ -5,15 +5,15 @@
 ## This file is read only when the project is added to Atom.
 ##
 
-# Path to the main HTML file. (Relative path from the project root.)
-mainHtmlPath = 'index.html'
+## Path to the main HTML file. (Relative path from the project root.)
+# mainHtmlPath = 'index.html'
 
-# Resource files the main HTML file referes to
-# and/or directories containing those. (Relative path from the project root.)
-# Changes in the files/directories are monitored and reflected to
-# the step list view.
-resources = ['css', 'fonts', 'js']
+## Resource files the main HTML file referes to
+## and/or directories containing those. (Relative path from the project root.)
+## Changes in the files/directories are monitored and reflected to
+## the step list view.
+# resources = ['css', 'fonts', 'js']
 
 [stepListView]
-# Height of Step List View.
+## Height of Step List View.
 # stepListViewHeight = 120
